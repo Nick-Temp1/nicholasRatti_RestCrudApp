@@ -8,6 +8,8 @@ public class Student {
     @Id
     private Long id;
     private String name;
+    private Double fees;
+    private String subName;
 
     public Long getId() {
         return id;
